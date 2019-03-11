@@ -23,7 +23,7 @@ Commands to be run
 3. Start pod in kubernetes
 	  - kubectl apply -f .\pod.yaml
 
-4. Ensure "multicontainer" pod is up and running ( shoud show as ready =2/2, status ="Running"),
+4. Ensure "multicontainers" pod is up and running ( shoud show as ready =2/2, status ="Running"),
    using the following commands:
    	- kubectl get pods
 	- kubectl get pods --output=wide
